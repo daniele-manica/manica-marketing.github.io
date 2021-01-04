@@ -1,11 +1,11 @@
 ---
-layout: landing
+layout: page
 title: Test
 landing-title: 'This is a test page'
 description: null
 image: null
 author: null
-show_tile: false
+show_tile: true
 image: assets/images/pic07.jpg
 nav-menu: true
 ---

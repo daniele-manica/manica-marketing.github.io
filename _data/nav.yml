@@ -1,0 +1,15 @@
+- name: Accueil
+  path:
+  section_id: home
+- name: Services
+  path: services
+  section_id: services
+  children:
+    - name: Pipedrive Expert Partner
+      path: services/pipedrive
+- name: A propos
+  path: a-propos
+  section_id: about
+- name: Contactez-moi
+  path: contact
+  section_id: contact

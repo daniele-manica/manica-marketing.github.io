@@ -29,6 +29,7 @@
 	);
 
 // Palette.
+/*
 	$palette: (
 		bg:					#242943,
 		bg-alt:				#2a2f4a,
@@ -44,4 +45,22 @@
 		accent4:			#e7b788,
 		accent5:			#8ea9e8,
 		accent6:			#87c5a4
+	);
+*/
+// Palette.
+	$palette: (
+		bg:					#003c77,
+		bg-alt:				#0e264c,
+		fg:					#ffffff,
+		fg-bold:			#ffffff,
+		fg-light:			rgba(221,221,221,0.2),
+		border:				rgba(196,82,20,0.1),
+		border-bg:			rgba(212,212,255,0.035),
+		highlight:			#c45214,
+		accent1:			#0050a0,
+		accent2:			#126b68,
+		accent3:			#4ea077,
+		accent4:			#58aaed,
+		accent5:			#e28054,
+		accent6:			#f2d891
 	);
