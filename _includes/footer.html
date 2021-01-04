@@ -4,7 +4,7 @@
 		<section>
 			<form action="https://formspree.io/{{ site.email }}" method="POST">
 				<div class="field half first">
-					<label for="name">Name</label>
+					<label for="name">Prénom et nom</label>
 					<input type="text" name="name" id="name" />
 				</div>
 				<div class="field half">
@@ -16,8 +16,8 @@
 					<textarea name="message" id="message" rows="6"></textarea>
 				</div>
 				<ul class="actions">
-					<li><input type="submit" value="Send Message" class="special" /></li>
-					<li><input type="reset" value="Clear" /></li>
+					<li><input type="submit" value="Envoyer" class="special" /></li>
+					<li><input type="reset" value="Réinitialiser" /></li>
 				</ul>
 			</form>
 		</section>
@@ -32,14 +32,14 @@
 			<section>
 				<div class="contact-method">
 					<span class="icon alt fa-phone"></span>
-					<h3>Phone</h3>
+					<h3>Téléphone</h3>
 					<span>{{ site.phone }}</span>
 				</div>
 			</section>
 			<section>
 				<div class="contact-method">
 					<span class="icon alt fa-home"></span>
-					<h3>Address</h3>
+					<h3>Adresse</h3>
 					<span>
 					{% if site.street_address %}
 					    {{ site.street_address }}<br />
@@ -99,10 +99,9 @@
 				{% endif %}
 			</ul>
 			<ul class="copyright">
-				<li>&copy; {{ site.title }} {{ site.subtitle }}</li>
+				<li>&copy; {{ "now" | date: "%Y" }} {{ site.title }} {{ site.subtitle }}</li>
 				<li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
 				<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a></li>
-
 			</ul>
 		</div>
 	</footer>

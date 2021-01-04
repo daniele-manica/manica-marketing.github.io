@@ -2,16 +2,16 @@
 title: Manica
 subtitle: Marketing Technology
 email: contact@manica.io
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+description: Manica vous accompagne dans la définition et la mise en oeuvre<br />de votre stratégie marketing digitale.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://www.manica.io"
 author: Daniele Lodola
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+street_address: 1B rue Joffre
+city: Avignon
+state: 
+zip_code: 84000
+country: France
+phone: +33 649 413 298
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
@@ -19,15 +19,14 @@ tiles-count: 4
 
 # social settings
 500px_url:
-facebook_url:
+facebook_url: https://www.facebook.com/manica.marketing
 github_url:
-gitlab_url: https://gitlab.com/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+gitlab_url: 
+instagram_url: 
+linkedin_url: https://www.linkedin.com/company/manica-marketing/
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+twitter_url: 
 
 # build settings
 markdown: kramdown
