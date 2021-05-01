@@ -26,8 +26,9 @@ if(readCookie('cookie-notice-dismissed')=='true') {
 } else {
     document.getElementById('cookie-notice').style.display = 'block';
 }
+
 document.getElementById('cookie-notice-accept').addEventListener("click",function() {
     createCookie('cookie-notice-dismissed','true',31);
     document.getElementById('cookie-notice').style.display = 'none';
-    location.reload();
+    //location.reload();
 });
