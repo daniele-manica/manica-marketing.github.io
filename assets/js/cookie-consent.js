@@ -30,5 +30,5 @@ if(readCookie('cookie-notice-dismissed')=='true') {
 document.getElementById('cookie-notice-accept').addEventListener("click",function() {
     createCookie('cookie-notice-dismissed','true',31);
     document.getElementById('cookie-notice').style.display = 'none';
-    //location.reload();
+    location.reload(); // Required in order to reload DOM for GTM to detect cookie.
 });
