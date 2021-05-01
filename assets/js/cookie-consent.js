@@ -7,6 +7,7 @@ function createCookie(name,value,days) {
     }
     document.cookie = name + "=" + value + expires + "; path=/";
 }
+
 function readCookie(name) {
     var nameEQ = name + "=";
     var ca = document.cookie.split(';');
@@ -17,18 +18,18 @@ function readCookie(name) {
     }
     return null;
 }
+
 function eraseCookie(name) {
     createCookie(name,"",-1);
 }
 
-if(readCookie('cookie-notice-dismissed')=='true') {
-    console.log('Cookies accepted');
-} else {
+if(readCookie('accept-ga4')!='true') {
+    //console.log('No cookie here.');
     document.getElementById('cookie-notice').style.display = 'block';
 }
 
-document.getElementById('cookie-notice-accept').addEventListener("click",function() {
-    createCookie('cookie-notice-dismissed','true',31);
+document.getElementById('accept-ga4').addEventListener("click",function() {
+    createCookie('accept-ga4','true',31);
     document.getElementById('cookie-notice').style.display = 'none';
     location.reload(); // Required in order to reload DOM for GTM to detect cookie.
 });
